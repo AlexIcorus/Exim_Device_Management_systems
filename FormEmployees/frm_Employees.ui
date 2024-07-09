@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frm_employee</class>
+ <widget class="QWidget" name="frm_employee">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1421</width>
+    <height>913</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QFrame" name="frame_Main">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout" stretch="8,5">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QFrame" name="frame">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 213, 126);
+background-color: rgb(40, 40, 40);</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_3">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <property name="horizontalSpacing">
+          <number>0</number>
+         </property>
+         <item row="0" column="0">
+          <widget class="QWidget" name="widget" native="true">
+           <widget class="QLabel" name="label_7">
+            <property name="geometry">
+             <rect>
+              <x>870</x>
+              <y>130</y>
+              <width>141</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 18pt &quot;Phetsarath OT&quot;;
+color: rgb(255, 213, 126);
+</string>
+            </property>
+            <property name="text">
+             <string>Position</string>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="txt_search">
+            <property name="geometry">
+             <rect>
+              <x>1063</x>
+              <y>330</y>
+              <width>270</width>
+              <height>39</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);
+font: 18pt &quot;Phetsarath OT&quot;;
+color: rgb(0, 0, 0);</string>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="txt_phone">
+            <property name="geometry">
+             <rect>
+              <x>230</x>
+              <y>180</y>
+              <width>341</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);
+font: 18pt &quot;Phetsarath OT&quot;;
+color: rgb(0, 0, 0);</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_11">
+            <property name="geometry">
+             <rect>
+              <x>870</x>
+              <y>30</y>
+              <width>141</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 18pt &quot;Phetsarath OT&quot;;
+color: rgb(255, 213, 126);
+</string>
+            </property>
+            <property name="text">
+             <string>Company</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_3">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>180</y>
+              <width>211</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 18pt &quot;Phetsarath OT&quot;;
+color: rgb(255, 213, 126);
+</string>
+            </property>
+            <property name="text">
+             <string>Phone</string>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="txt_email">
+            <property name="geometry">
+             <rect>
+              <x>230</x>
+              <y>280</y>
+              <width>471</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);
+font: 18pt &quot;Phetsarath OT&quot;;
+color: rgb(0, 0, 0);</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_4">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>230</y>
+              <width>211</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 18pt &quot;Phetsarath OT&quot;;
+color: rgb(255, 213, 126);
+</string>
+            </property>
+            <property name="text">
+             <string>Address</string>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="txt_surname">
+            <property name="geometry">
+             <rect>
+              <x>230</x>
+              <y>80</y>
+              <width>561</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);
+font: 18pt &quot;Phetsarath OT&quot;;
+color: rgb(0, 0, 0);</string>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="txt_emp_code">
+            <property name="geometry">
+             <rect>
+              <x>230</x>
+              <y>130</y>
+              <width>391</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);
+font: 18pt &quot;Phetsarath OT&quot;;
+color: rgb(0, 0, 0);</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_13">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>330</y>
+              <width>211</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 18pt &quot;Phetsarath OT&quot;;
+color: rgb(255, 213, 126);
+</string>
+            </property>
+            <property name="text">
+             <string>Gender</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_12">
+            <property name="geometry">
+             <rect>
+              <x>870</x>
+              <y>180</y>
+              <width>81</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 18pt &quot;Phetsarath OT&quot;;
+color: rgb(255, 213, 126);
+</string>
+            </property>
+            <property name="text">
+             <string>Role</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_9">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>130</y>
+              <width>211</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 18pt &quot;Phetsarath OT&quot;;
+color: rgb(255, 213, 126);
+</string>
+            </property>
+            <property name="text">
+             <string>Emp_Code</string>
+            </property>
+           </widget>
+           <widget class="QComboBox" name="cmb_company">
+            <property name="geometry">
+             <rect>
+              <x>1070</x>
+              <y>30</y>
+              <width>331</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 12pt &quot;Phetsarath OT&quot;;</string>
+            </property>
+           </widget>
+           <widget class="QComboBox" name="cmb_role">
+            <property name="geometry">
+             <rect>
+              <x>1070</x>
+              <y>180</y>
+              <width>330</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 12pt &quot;Phetsarath OT&quot;;</string>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="txt_address">
+            <property name="geometry">
+             <rect>
+              <x>230</x>
+              <y>230</y>
+              <width>591</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);
+font: 18pt &quot;Phetsarath OT&quot;;
+color: rgb(0, 0, 0);</string>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="txt_name">
+            <property name="geometry">
+             <rect>
+              <x>230</x>
+              <y>30</y>
+              <width>561</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 18pt &quot;Phetsarath OT&quot;;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QComboBox" name="cmb_department">
+            <property name="geometry">
+             <rect>
+              <x>1070</x>
+              <y>80</y>
+              <width>331</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 12pt &quot;Phetsarath OT&quot;;</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_5">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>280</y>
+              <width>211</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 18pt &quot;Phetsarath OT&quot;;
+color: rgb(255, 213, 126);
+</string>
+            </property>
+            <property name="text">
+             <string>Email</string>
+            </property>
+           </widget>
+           <widget class="QComboBox" name="cmb_position">
+            <property name="geometry">
+             <rect>
+              <x>1070</x>
+              <y>130</y>
+              <width>331</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 12pt &quot;Phetsarath OT&quot;;</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_2">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>80</y>
+              <width>211</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 18pt &quot;Phetsarath OT&quot;;
+color: rgb(255, 213, 126);
+</string>
+            </property>
+            <property name="text">
+             <string>Last name</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="btn_search">
+            <property name="geometry">
+             <rect>
+              <x>1340</x>
+              <y>330</y>
+              <width>53</width>
+              <height>39</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 213, 126);
+color: rgb(0, 0, 0);
+font: 18pt &quot;Phetsarath OT&quot;;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>icons/search-alt-regular.png</normaloff>icons/search-alt-regular.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>40</width>
+              <height>40</height>
+             </size>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>30</y>
+              <width>211</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 18pt &quot;Phetsarath OT&quot;;
+color: rgb(255, 213, 126);
+</string>
+            </property>
+            <property name="text">
+             <string>First name</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_10">
+            <property name="geometry">
+             <rect>
+              <x>870</x>
+              <y>80</y>
+              <width>181</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 18pt &quot;Phetsarath OT&quot;;
+color: rgb(255, 213, 126);
+</string>
+            </property>
+            <property name="text">
+             <string>Department</string>
+            </property>
+           </widget>
+           <widget class="QWidget" name="verticalLayoutWidget">
+            <property name="geometry">
+             <rect>
+              <x>200</x>
+              <y>320</y>
+              <width>504</width>
+              <height>140</height>
+             </rect>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_2">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QWidget" name="widget_2" native="true">
+               <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="1,2">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QRadioButton" name="rb_Male">
+                  <property name="font">
+                   <font>
+                    <family>Phetsarath OT</family>
+                    <pointsize>12</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 12pt &quot;Phetsarath OT&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>Male</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QRadioButton" name="rb_Female">
+                  <property name="font">
+                   <font>
+                    <family>Phetsarath OT</family>
+                    <pointsize>12</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>Female</string>
+                  </property>
+                  <property name="iconSize">
+                   <size>
+                    <width>20</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_3">
+               <property name="spacing">
+                <number>50</number>
+               </property>
+               <item>
+                <widget class="QPushButton" name="btn_insert">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(0, 127, 108);
+color: rgb(255, 255, 255);
+font: 18pt &quot;Phetsarath OT&quot;;</string>
+                 </property>
+                 <property name="text">
+                  <string> ເພີ່ມຂໍ້ມູນ</string>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>../../../.designer/PythonPOS/icon/plus-circle-solid-60.png</normaloff>../../../.designer/PythonPOS/icon/plus-circle-solid-60.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>20</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="btn_edit">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(0, 127, 108);
+color: rgb(255, 255, 255);
+font: 18pt &quot;Phetsarath OT&quot;;</string>
+                 </property>
+                 <property name="text">
+                  <string>ເເກ້ໄຂຂໍ້ມູນ</string>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>../../../.designer/PythonPOS/icon/edit-regular-60.png</normaloff>../../../.designer/PythonPOS/icon/edit-regular-60.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>25</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="btn_delete">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255, 0, 0);
+color: rgb(255, 255, 255);
+font: 18pt &quot;Phetsarath OT&quot;;</string>
+                 </property>
+                 <property name="text">
+                  <string>ລ້າງ</string>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>../../../.designer/PythonPOS/icon/edit-regular-60.png</normaloff>../../../.designer/PythonPOS/icon/edit-regular-60.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>25</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="frame_2">
+        <property name="styleSheet">
+         <string notr="true">font: 18pt &quot;Phetsarath OT&quot;;
+background-color: rgb(1, 114, 127);</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="0" column="0">
+          <widget class="QTableWidget" name="tb_show">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(240, 236, 229);
+font: 18pt &quot;Phetsarath OT&quot;;
+QTableWidget {
+ /* Set the default background color to white */
+}
+
+QTableWidget::item {
+    background-color: green; 
+}
+
+QTableWidget::item:selected {
+    background-color: white;
+}</string>
+           </property>
+           <column>
+            <property name="text">
+             <string>id</string>
+            </property>
+            <property name="font">
+             <font>
+              <family>Phetsarath OT</family>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>first name</string>
+            </property>
+            <property name="font">
+             <font>
+              <family>Phetsarath OT</family>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>last name</string>
+            </property>
+            <property name="font">
+             <font>
+              <family>Phetsarath OT</family>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>address</string>
+            </property>
+            <property name="font">
+             <font>
+              <family>Phetsarath OT</family>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>phone</string>
+            </property>
+            <property name="font">
+             <font>
+              <family>Phetsarath OT</family>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>email</string>
+            </property>
+            <property name="font">
+             <font>
+              <family>Phetsarath OT</family>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>gender</string>
+            </property>
+            <property name="font">
+             <font>
+              <family>Phetsarath OT</family>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>role</string>
+            </property>
+            <property name="font">
+             <font>
+              <family>Phetsarath OT</family>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>position</string>
+            </property>
+            <property name="font">
+             <font>
+              <family>Phetsarath OT</family>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Department</string>
+            </property>
+            <property name="font">
+             <font>
+              <family>Phetsarath OT</family>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Company</string>
+            </property>
+            <property name="font">
+             <font>
+              <family>Phetsarath OT</family>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Action</string>
+            </property>
+            <property name="font">
+             <font>
+              <family>Phetsarath OT</family>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
